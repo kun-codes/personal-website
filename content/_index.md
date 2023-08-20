@@ -1,6 +1,6 @@
 +++
-title = "Bishwa Saha -- Portfolio"
-description = "This is my portfolio page."
+title = "Bishwa Saha"
+description = "My Corner on the Internet"
 +++
 
 ![image](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e7d2bd61228185.5a67a07360e75.gif)
