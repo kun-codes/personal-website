@@ -1,0 +1,17 @@
+base_url = "https://example.com"
+compile_sass = true
+build_search_index = false
+theme = "anemone"
+
+[markdown]
+highlight_code = true
+renger_emoji = true
+external_links_target_blank = true
+
+[extra]
+
+[[extra.header_nav]]
+en = { name = "/home", url = "/" }
+
+[[extra.header_nav]]
+en = { name = "./projects/", url = "/projects" }
