@@ -1,4 +1,4 @@
-base_url = "https://example.com"
+base_url = "https://bishwasaha.pages.dev"
 compile_sass = true
 build_search_index = false
 theme = "anemone"
