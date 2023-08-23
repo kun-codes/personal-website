@@ -22,7 +22,7 @@ I hail from Kolkata, India.
 
 ## Extras
 
-- [[🔗] Interesting Links](/more/links)
+- [[🔗] Cool Websites](/more/links)
 
 ## Hit me up
 

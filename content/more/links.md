@@ -1,8 +1,8 @@
 +++
-title = "Some interesting websites I have found"
+title = "Some cool websites I found"
 +++
 
-## Some interesting websites I found
+## Some cool websites I found
 
 - [Anna's Archive](https://annas-archive.org/) Download books and academic papers
 - [AstroNvim](https://astronvim.com/) A really good neovim config
