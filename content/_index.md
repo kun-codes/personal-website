@@ -20,6 +20,10 @@ I hail from Kolkata, India.
 - [[🔧] My Tools](/more/tools)
 - [[🕹️] Games I have played](/more/games)
 
+## Extras
+
+- [[🔗] Interesting Links](/more/links)
+
 ## Hit me up
 
 - Email: [contact_me.qtckr@slmail.me](mailto:contact_me.qtckr@slmail.me)
