@@ -2,8 +2,11 @@
 title = "Tools which I use daily"
 +++
 
+### My dotfiles
+- [Neovim config](https://github.com/throwaway69420-69420/astronvim_user)
+
 ### Code Editor
-- [Neovim](https://neovim.io/)
+- [Neovim](https://neovim.io/) with [AstroNvim](https://astronvim.com/) as base
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ### IDEs
