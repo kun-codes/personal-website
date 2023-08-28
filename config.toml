@@ -11,7 +11,7 @@ external_links_target_blank = true
 [extra]
 
 [[extra.header_nav]]
-en = { name = "/home", url = "/" }
+en = { name = "/home/", url = "/" }
 
 [[extra.header_nav]]
-en = { name = "./projects/", url = "/projects" }
+en = { name = "/projects/", url = "/projects" }
