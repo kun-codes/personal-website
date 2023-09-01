@@ -26,5 +26,5 @@ I hail from Kolkata, India.
 
 ## Hit me up
 
-- Email: [contact_me.qtckr@slmail.me](mailto:contact_me.qtckr@slmail.me)
+- Email: [contact_me.qtckr@slmail.me](mailto:contact@bishwasaha.com)
 - Github: [throwaway69420-69420@github.com](https://github.com/throwaway69420-69420/)
