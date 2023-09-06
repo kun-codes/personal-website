@@ -15,6 +15,8 @@ When I am not studying, you can find me learning programming, playing video game
 
 I hail from Kolkata, India.
 
+I am a member of [BITS SOS](https://bits-sos.github.io/)(Society for Open Software) and a Student Representative at BITS Pilani, Hyderabad Campus.
+
 ## About Me
 
 - [[🔧] My Tools](/more/tools)
