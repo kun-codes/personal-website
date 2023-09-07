@@ -13,3 +13,6 @@ Thanks to my girlfriend for helping me find the GIF at the top of [homepage](/).
 
 ## Website Inpsiration
 [Speyll@github.com](https://speyllsite.pages.dev/)
+
+## /now page addition
+[Derek Silver](https://sive.rs/nowff)

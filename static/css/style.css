@@ -323,3 +323,31 @@ textarea {
 .webring {
     margin: 0.5rem;
 }
+
+/* for the status */
+#statuscafe {
+    border: 2px dashed var(--metaColor);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding: 1.4rem;
+}
+
+#statuscafe-content {
+    margin-left: 1rem
+}
+
+#statuscafe:focus,
+#statuscafe:hover {
+    transform: scale(1.05);
+    -webkit-transition: .1s ease-in;
+    -moz-transition: .1s ease-in;
+    -o-transition: .1s ease-in;
+    background: var(--bgSelect)
+}
+
+@media(max-width:65.625em),
+screen and (orientation:portrait) {
+    .moe {
+        display: none
+    }
+}
