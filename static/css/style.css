@@ -82,13 +82,13 @@ h1 {
   font-size: 2.4rem;
   color: var(--bgColor);
   background-color: var(--metaColor);
-  text-align: center;
+  text-align: left; /* changed from center */
   text-wrap: balance;
 }
 
 h1::before {
   color: var(--bgColor);
-  content: "# ";
+  content: ""; /* changed from '# ' */
 }
 
 h2::before,
@@ -101,9 +101,10 @@ h6::before {
 }
 
 a {
-  text-decoration: none;
-  padding: 0 0.2rem 0 0.2rem;
-  border-radius: 0.3rem;
+  /* did it so that links are underlined again after sticky footer update */
+  /* text-decoration: none; */
+  /* padding: 0 0.2rem 0 0.2rem; */
+  /* border-radius: 0.3rem; */
   color: var(--linkColor);
 }
 
