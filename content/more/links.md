@@ -4,6 +4,7 @@ title = "Some cool websites I found"
 
 ## Some cool websites I found
 
+- [12ft Ladder](https://12ft.io/) Bypass paywalls of news websites and articles
 - [Anna's Archive](https://annas-archive.org/) Download books and academic papers
 - [AstroNvim](https://astronvim.com/) A really good neovim config
 - [codeium](https://codeium.com/) AI powered code writing assistant
@@ -22,4 +23,5 @@ title = "Some cool websites I found"
 - [Temp Mail](https://temp-mail.org/) Keep your inbox free of spam
 - [vern.cc](https://vern.cc/) A non-commercial tilde and a pubnix
 - [Vim cheatsheet](https://vim.rtorr.com/) I don't have to say more
+- [VirusTotal](https://www.virustotal.com/) Analyse suspicious files, domains, IPs and URLs to detect malware
 - [Wormhole](https://wormhole.app/) Send files upto 10gb to anyone, end to end encrypted
