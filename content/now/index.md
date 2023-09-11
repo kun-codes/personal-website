@@ -10,8 +10,8 @@ title = "What I am currently doing right now"
 
 ## 2023
 
-- **AUG**: Became a member of the [BITS-SOS](https://bits-sos.github.io/)(BITS Society for Open Software)
 - **SEP**: Became a Student Representative at BITS Pilani, Hyderabad Campus
+- **AUG**: Became a member of the [BITS-SOS](https://bits-sos.github.io/)(BITS Society for Open Software)
 
 ## 2022
 

@@ -88,7 +88,7 @@ h1 {
 
 h1::before {
   color: var(--bgColor);
-  content: ""; /* changed from '# ' */
+  content: "\00a0"; /* changed from '# ' */
 }
 
 h2::before,
