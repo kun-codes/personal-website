@@ -20,7 +20,7 @@ I am a member of [BITS SOS](https://bits-sos.github.io/)(BITS Society for Open S
 ## About Me
 
 - [[🔧] My Tools](/more/tools)
-- [[🕹️] Games I have played](/more/games)
+<!-- - [[🕹️] Games I have played](/more/games) -->
 
 ## Extras
 

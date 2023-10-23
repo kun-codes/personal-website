@@ -1,0 +1,27 @@
+a {
+  text-decoration: underline;
+}
+
+#statuscafe {
+  border: 2px dashed var(--metaColor);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.4rem;
+  transition: 0.2s all;
+}
+
+#statuscafe-content {
+  margin-left: 1rem;
+}
+
+#statuscafe:focus,
+#statuscafe:hover {
+  transform: scale(1.05);
+  transition: 0.2s all;
+  background: var(--bgSelect);
+}
+
+.centered-container {
+  display: grid;
+  place-items: left;
+}
