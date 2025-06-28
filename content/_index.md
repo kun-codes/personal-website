@@ -29,4 +29,4 @@ I am a member of [BITS SOS](https://bits-sos.github.io/)(BITS Society for Open S
 ## Hit me up
 
 - Email: [contact@bishwasaha.com](mailto:contact@bishwasaha.com)
-- Github: [throwaway69420-69420@github.com](https://github.com/throwaway69420-69420/)
+- Github: [kun-codes@github.com](https://github.com/kun-codes)
