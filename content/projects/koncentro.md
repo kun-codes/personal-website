@@ -2,7 +2,6 @@
 title = "Koncentro: Task manager with Pomodoro, website blocking, and timeboxing"
 description = "Task manager with Pomodoro, website blocking, and timeboxing"
 date = 2025-06-28
-aliases = ["/koncentro", "/koncentro/"]
 +++
 
 ## Repository:
