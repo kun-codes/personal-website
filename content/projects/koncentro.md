@@ -120,7 +120,7 @@ This project is licensed under the [GPL-3.0-or-later license](LICENSE).
 
 <div align="center">
   <a href="https://www.repoflow.io/">
-    <img src="screenshots/repoflow_logo.svg" alt="RepoFlow" height="48"/>
+    <img src="https://raw.githubusercontent.com/kun-codes/Koncentro/4caf3fa4bf26fe4444036254d84a57415ff03a82/screenshots/repoflow_logo.svg" alt="RepoFlow" height="48"/>
   </a>
 </div>
 
