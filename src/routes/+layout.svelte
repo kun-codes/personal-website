@@ -12,5 +12,6 @@
 <style>
 	:global(div.window) {
 		font-family: Geneva;
+		text-align: justify;
 	}
 </style>
