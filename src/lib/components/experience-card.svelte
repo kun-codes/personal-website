@@ -24,6 +24,7 @@
 	<div class="title-bar">
 		<span class="title">{company}</span>
 	</div>
+	<div class="separator"></div>
 	<div class="flex gap-5 p-4 items-start text-left">
 		<div class="shrink-0 w-20 h-20">
 			{#if logoUrl}
@@ -51,4 +52,3 @@
 		</div>
 	</div>
 </div>
-
