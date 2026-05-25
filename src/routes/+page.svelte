@@ -1,6 +1,7 @@
 <script lang="ts">
     import ExperienceCard from '$lib/components/experience-card.svelte';
     import ProjectCard from '$lib/components/project-card.svelte';
+    import SkillCard from '$lib/components/skill-card.svelte';
 </script>
 
 
@@ -108,6 +109,57 @@
                 />
             </div>
 
+            <h2>Skills</h2>
+            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2">
+                <SkillCard
+                    name="React"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                />
+                <SkillCard
+                    name="TypeScript"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                />
+                <SkillCard
+                    name="Svelte"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+                />
+                <SkillCard
+                    name="Python"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                />
+                <SkillCard
+                    name="Node.js"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                />
+                <SkillCard
+                    name="Tailwind CSS"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                />
+                <SkillCard
+                    name="MongoDB"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+                />
+                <SkillCard
+                    name="PostgreSQL"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                />
+                <SkillCard
+                    name="Docker"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+                />
+                <SkillCard
+                    name="Git"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                />
+                <SkillCard
+                    name="JavaScript"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                />
+                <SkillCard
+                    name="Linux"
+                    imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                />
+            </div>
 		</div>
 	</div>
 </div>
