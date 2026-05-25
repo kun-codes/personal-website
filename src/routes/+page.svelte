@@ -1,5 +1,6 @@
 <script lang="ts">
     import ExperienceCard from '$lib/components/experience-card.svelte';
+    import ProjectCard from '$lib/components/project-card.svelte';
 </script>
 
 
@@ -46,7 +47,7 @@
                 techStack={["Vue.js", "JavaScript", "CSS", "HTML"]}
             />
 
-			<ExperienceCard
+            <ExperienceCard
                 company="Corp 3"
                 logoUrl="https://via.placeholder.com/80"
                 role="Intern"
@@ -58,6 +59,54 @@
                 ]}
                 techStack={["Python", "Django", "SQLite"]}
             />
+
+            <h2>Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-8 gap-y-0">
+                <ProjectCard
+                    title="Project 1"
+                    imageUrl="https://via.placeholder.com/640x360"
+                    description={[
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    ]}
+                    techStack={["Svelte", "TypeScript", "Tailwind"]}
+                    githubUrl="https://example.com"
+                    demoUrl="https://example.com"
+                />
+
+                <ProjectCard
+                    title="Project 2"
+                    imageUrl="https://via.placeholder.com/640x360"
+                    description={[
+                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    ]}
+                    techStack={["React", "Node.js", "MongoDB"]}
+                    githubUrl="https://example.com"
+                />
+
+                <ProjectCard
+                    title="Project 3"
+                    imageUrl="https://via.placeholder.com/640x360"
+                    description={[
+                        "Excepteur sint occaecat cupidatat non proident.",
+                        "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+                    ]}
+                    techStack={["Python", "Django", "PostgreSQL"]}
+                    demoUrl="https://example.com"
+                />
+
+                <ProjectCard
+                    title="Project 4"
+                    description={[
+                        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+                    ]}
+                    techStack={["Vue", "JavaScript", "CSS"]}
+                    githubUrl="https://example.com"
+                    demoUrl="https://example.com"
+                />
+            </div>
 
 		</div>
 	</div>
