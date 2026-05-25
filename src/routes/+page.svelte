@@ -160,6 +160,24 @@
                     imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
                 />
             </div>
+
+            <h2>Contact Me</h2>
+            <div class="window ml-0! mr-0! min-w-0!">
+                <div class="title-bar">
+                    <span class="title">Let's Connect</span>
+                </div>
+                <div class="separator"></div>
+                <div class="alert-box">
+                    <div class="alert-contents p-0!">
+                        <p class="pb-2">Got a question or want to work together?</p>
+                        <div class="flex flex-wrap gap-2 justify-end">
+                            <a href="mailto:contact@bishwasaha.com" class="btn">Send me an email</a>
+                            <a href="https://github.com/kun-codes" class="btn">GitHub</a>
+                            <a href="https://www.linkedin.com/in/bishwa-bhusan-saha" class="btn">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
 </div>
