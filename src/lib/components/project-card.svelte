@@ -18,24 +18,24 @@
 	} = $props();
 </script>
 
-<div class="window aspect-9/16 flex flex-col overflow-hidden ml-0! mr-0! min-w-0!">
+<div class="window aspect-9/16 flex flex-col ml-0! mr-0! min-w-0!">
 	<div class="title-bar">
 		<span class="title">{title}</span>
 	</div>
 	<div class="separator"></div>
 
-	<div class="aspect-video overflow-hidden shrink-0">
+	<div class="window aspect-video overflow-hidden shrink-0 min-w-0!">
 		{#if imageUrl}
-			<img src={imageUrl} alt={title} class="w-full h-full object-cover outer-border" />
+			<img src={imageUrl} alt={title} class="w-full h-full object-cover" />
 		{:else}
 			<div
-				class="w-full h-full outer-border"
+				class="w-full h-full"
 				style="background: linear-gradient(135deg, #fff 45%, #ccc 45%, #ccc 55%, #fff 55%)"
 			></div>
 		{/if}
 	</div>
 
-	<div class="flex flex-col gap-2 p-3 overflow-y-auto flex-1">
+	<div class="flex flex-col gap-2 px-3 pb-3 pt-0 overflow-y-auto flex-1">
 		<ul class="m-0 pl-4 text-sm leading-relaxed list-disc">
 			{#each description as point (point)}
 				<li>{point}</li>
