@@ -22,6 +22,7 @@
 	<div class="title-bar">
 		<span class="title">{title}</span>
 	</div>
+	<div class="separator"></div>
 
 	<div class="aspect-video overflow-hidden shrink-0">
 		{#if imageUrl}
