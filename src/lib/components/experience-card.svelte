@@ -20,7 +20,7 @@
 	} = $props();
 </script>
 
-<div class="window my-2">
+<div class="window my-2 !ml-0 !mr-0 !min-w-0">
 	<div class="title-bar">
 		<span class="title">{company}</span>
 	</div>
@@ -51,3 +51,4 @@
 		</div>
 	</div>
 </div>
+
