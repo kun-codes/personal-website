@@ -5,9 +5,9 @@
 </script>
 
 
-<div class="flex justify-center p-4 lg:px-0">
-	<div class="standard-dialog w-full lg:w-3/4">
-		<div class="standard-dialog min-w-0! mx-4">
+<div class="flex justify-center p-2 lg:p-4 lg:px-0">
+	<div class="standard-dialog p-2! lg:p-6! w-full lg:w-3/4">
+		<div class="standard-dialog min-w-0! ">
 			<ul role="menu-bar" class="flex flex-wrap justify-center">
 				<li role="menu-item" tabindex="0" aria-haspopup="false">home</li>
 				<li role="menu-item" tabindex="0" aria-haspopup="false">projects</li>
@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 
-		<div class="px-4 pt-0.5 pb-4">
+		<div>
 			<h2>About Me</h2>
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius, nisi nec euismod euismod, ligula nibh ultricies mauris, sit amet rutrum mi dolor quis leo. Sed vehicula mi vitae varius iaculis. Praesent eu lorem dignissim, vehicula ex condimentum, sodales justo. Vivamus dignissim quis tellus vel euismod. Nullam cursus erat id lectus tristique placerat. Fusce facilisis lectus eget semper ultricies. Cras vitae tincidunt lacus. Curabitur ut odio tortor. Nulla id fermentum urna. Cras molestie, neque nec condimentum tincidunt, nisl orci feugiat odio, sed dictum dolor mi in libero. Nulla nec ante consectetur, dictum massa eget, aliquam magna. Donec orci metus, vulputate a ipsum ut, aliquet efficitur tortor. Aliquam erat volutpat. </p>
 
