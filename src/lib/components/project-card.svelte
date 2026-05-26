@@ -18,7 +18,7 @@
 	} = $props();
 </script>
 
-<div class="window aspect-9/16 flex flex-col ml-0! mr-0! min-w-0!">
+<div class="window aspect-9/16 flex flex-col m-0! min-w-0!">
 	<div class="title-bar">
 		<span class="title">{title}</span>
 	</div>

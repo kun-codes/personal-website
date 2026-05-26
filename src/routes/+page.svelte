@@ -21,48 +21,50 @@
 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius, nisi nec euismod euismod, ligula nibh ultricies mauris, sit amet rutrum mi dolor quis leo. Sed vehicula mi vitae varius iaculis. Praesent eu lorem dignissim, vehicula ex condimentum, sodales justo. Vivamus dignissim quis tellus vel euismod. Nullam cursus erat id lectus tristique placerat. Fusce facilisis lectus eget semper ultricies. Cras vitae tincidunt lacus. Curabitur ut odio tortor. Nulla id fermentum urna. Cras molestie, neque nec condimentum tincidunt, nisl orci feugiat odio, sed dictum dolor mi in libero. Nulla nec ante consectetur, dictum massa eget, aliquam magna. Donec orci metus, vulputate a ipsum ut, aliquet efficitur tortor. Aliquam erat volutpat. </p>
 
 			<h2>Experience</h2>
-			<ExperienceCard
-				company="Corp 1"
-				logoUrl="https://via.placeholder.com/80"
-				role="Software Engineer"
-				startDate="Jan 2020"
-				endDate="Dec 2023"
-				description={[
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					"Aliquam dictum est convallis tristique sagittis.",
-					"Vivamus euismod lacus ut metus interdum, vitae interdum elit congue."
-				]}
-				techStack={["React", "TypeScript", "Node.js", "PostgreSQL"]}
-			/>
+			<div class="flex flex-col gap-4">
+    			<ExperienceCard
+    				company="Corp 1"
+    				logoUrl="https://via.placeholder.com/80"
+    				role="Software Engineer"
+    				startDate="Jan 2020"
+    				endDate="Dec 2023"
+    				description={[
+    					"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    					"Aliquam dictum est convallis tristique sagittis.",
+    					"Vivamus euismod lacus ut metus interdum, vitae interdum elit congue."
+    				]}
+    				techStack={["React", "TypeScript", "Node.js", "PostgreSQL"]}
+    			/>
 
-			<ExperienceCard
-                company="Corp 2"
-                logoUrl="https://via.placeholder.com/80"
-                role="Frontend Developer"
-                startDate="Jan 2018"
-                endDate="Dec 2019"
-                description={[
-                    "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                ]}
-                techStack={["Vue.js", "JavaScript", "CSS", "HTML"]}
-            />
+    			<ExperienceCard
+                    company="Corp 2"
+                    logoUrl="https://via.placeholder.com/80"
+                    role="Frontend Developer"
+                    startDate="Jan 2018"
+                    endDate="Dec 2019"
+                    description={[
+                        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    ]}
+                    techStack={["Vue.js", "JavaScript", "CSS", "HTML"]}
+                />
 
-            <ExperienceCard
-                company="Corp 3"
-                logoUrl="https://via.placeholder.com/80"
-                role="Intern"
-                startDate="Jun 2017"
-                endDate="Aug 2017"
-                description={[
-                    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                    "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                ]}
-                techStack={["Python", "Django", "SQLite"]}
-            />
+                <ExperienceCard
+                    company="Corp 3"
+                    logoUrl="https://via.placeholder.com/80"
+                    role="Intern"
+                    startDate="Jun 2017"
+                    endDate="Aug 2017"
+                    description={[
+                        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    ]}
+                    techStack={["Python", "Django", "SQLite"]}
+                />
+			</div>
 
             <h2>Projects</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-8 gap-y-0">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                 <ProjectCard
                     title="Project 1"
                     imageUrl="https://via.placeholder.com/640x360"
@@ -110,7 +112,7 @@
             </div>
 
             <h2>Skills</h2>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2">
+            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
                 <SkillCard
                     name="React"
                     imageUrl="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -162,7 +164,7 @@
             </div>
 
             <h2>Contact Me</h2>
-            <div class="window ml-0! mr-0! min-w-0!">
+            <div class="window m-0! min-w-0!">
                 <div class="title-bar">
                     <span class="title">Let's Connect</span>
                 </div>
@@ -178,7 +180,8 @@
                     </div>
                 </div>
             </div>
-    		<div class="details-bar">
+
+    		<div class="details-bar mt-4">
     			<span>© 2026 Bishwa Bhusan Saha</span>
     			<span class="flex gap-4">
     				<a href="https://github.com/kun-codes/personal-website/blob/main/LICENSE" class="underline">MIT</a>

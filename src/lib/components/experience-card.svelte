@@ -20,7 +20,7 @@
 	} = $props();
 </script>
 
-<div class="window my-2 !ml-0 !mr-0 !min-w-0">
+<div class="window mb-2 m-0! !min-w-0">
 	<div class="title-bar">
 		<span class="title">{company}</span>
 	</div>
