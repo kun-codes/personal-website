@@ -5,7 +5,7 @@
 </script>
 
 
-<div class="flex min-h-1000 justify-center p-4 lg:px-0">
+<div class="flex justify-center p-4 lg:px-0">
 	<div class="standard-dialog w-full lg:w-3/4">
 		<div class="standard-dialog min-w-0! mx-4">
 			<ul role="menu-bar" class="flex flex-wrap justify-center">
