@@ -14,4 +14,8 @@
 		font-family: Geneva;
 		text-align: justify;
 	}
+
+	:global(.details-bar) {
+		font-weight: normal;
+	}
 </style>
