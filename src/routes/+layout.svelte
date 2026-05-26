@@ -17,5 +17,10 @@
 
 	:global(.details-bar) {
 		font-weight: normal;
-	}
+    }
+
+    :global(h2) {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 </style>
