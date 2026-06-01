@@ -2,13 +2,14 @@
     import ExperienceCard from '$lib/components/experience-card.svelte';
     import ProjectCard from '$lib/components/project-card.svelte';
     import SkillCard from '$lib/components/skill-card.svelte';
+    import { resolve } from '$app/paths';
 </script>
 
 
 <div class="standard-dialog min-w-0! ">
 	<ul role="menu-bar" class="flex flex-wrap justify-center">
 		<li role="menu-item" tabindex="0" aria-haspopup="false"><a href="#projects">projects</a></li>
-		<li role="menu-item" tabindex="0" aria-haspopup="false">blogs</li>
+		<li role="menu-item" tabindex="0" aria-haspopup="false"><a href={resolve("/blogs")}>blogs</a></li>
 		<li role="menu-item" tabindex="0" aria-haspopup="false"><a href="#contact-me">contact</a></li>
 	</ul>
 </div>
