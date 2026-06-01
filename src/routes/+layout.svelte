@@ -7,7 +7,18 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+
+<div class="flex justify-center p-2 lg:p-4 lg:px-0">
+	<div class="standard-dialog p-2! lg:p-6! w-full lg:w-3/4">
+		{@render children()}
+		<div class="details-bar mt-4">
+			<span>© 2026 Bishwa Bhusan Saha</span>
+			<span class="flex gap-4">
+				<a href="https://github.com/kun-codes/personal-website/blob/main/LICENSE" class="underline">MIT</a>
+			</span>
+		</div>
+	</div>
+</div>
 
 <style>
 	:global(div.window) {
