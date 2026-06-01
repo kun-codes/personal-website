@@ -8,7 +8,7 @@
 <div class="standard-dialog min-w-0! ">
 	<ul role="menu-bar" class="flex flex-wrap justify-center">
 		<li role="menu-item" tabindex="0" aria-haspopup="false"><a href="#projects">projects</a></li>
-		<li role="menu-item" tabindex="0" aria-haspopup="false">blog</li>
+		<li role="menu-item" tabindex="0" aria-haspopup="false">blogs</li>
 		<li role="menu-item" tabindex="0" aria-haspopup="false"><a href="#contact-me">contact</a></li>
 	</ul>
 </div>
