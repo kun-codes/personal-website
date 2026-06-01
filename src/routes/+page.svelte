@@ -9,7 +9,6 @@
 	<div class="standard-dialog p-2! lg:p-6! w-full lg:w-3/4">
 		<div class="standard-dialog min-w-0! ">
 			<ul role="menu-bar" class="flex flex-wrap justify-center">
-				<li role="menu-item" tabindex="0" aria-haspopup="false">home</li>
 				<li role="menu-item" tabindex="0" aria-haspopup="false">projects</li>
 				<li role="menu-item" tabindex="0" aria-haspopup="false">blog</li>
 				<li role="menu-item" tabindex="0" aria-haspopup="false">contact</li>
