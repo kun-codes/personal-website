@@ -9,9 +9,9 @@
 	<div class="standard-dialog p-2! lg:p-6! w-full lg:w-3/4">
 		<div class="standard-dialog min-w-0! ">
 			<ul role="menu-bar" class="flex flex-wrap justify-center">
-				<li role="menu-item" tabindex="0" aria-haspopup="false">projects</li>
+				<li role="menu-item" tabindex="0" aria-haspopup="false"><a href="#projects">projects</a></li>
 				<li role="menu-item" tabindex="0" aria-haspopup="false">blog</li>
-				<li role="menu-item" tabindex="0" aria-haspopup="false">contact</li>
+				<li role="menu-item" tabindex="0" aria-haspopup="false"><a href="#contact-me">contact</a></li>
 			</ul>
 		</div>
 
@@ -62,7 +62,7 @@
                 />
 			</div>
 
-            <h2>Projects</h2>
+            <h2 id="projects">Projects</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                 <ProjectCard
                     title="Project 1"
@@ -162,7 +162,7 @@
                 />
             </div>
 
-            <h2>Contact Me</h2>
+            <h2 id="contact-me">Contact Me</h2>
             <div class="window m-0! min-w-0!">
                 <div class="title-bar">
                     <span class="title">Let's Connect</span>
