@@ -160,7 +160,7 @@
 
 	.mac-pane {
 		flex: 1 1 auto;
-		font-size: 18px;
+		font-size: 16px;
 		letter-spacing: -0.025em;
 		overflow-y: scroll;
 		padding: 1rem 1rem;
