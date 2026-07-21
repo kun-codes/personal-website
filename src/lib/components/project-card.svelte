@@ -18,13 +18,10 @@
 	} = $props();
 </script>
 
-<div class="window aspect-9/16 flex flex-col m-0! min-w-0!">
-	<div class="title-bar">
-		<span class="title">{title}</span>
-	</div>
-	<div class="separator"></div>
+<fieldset class="aspect-9/16 flex flex-col min-w-0 ">
+	<legend class="px-2 font-bold">{title}</legend>
 
-	<div class="window aspect-video overflow-hidden shrink-0 min-w-0!">
+	<div class="aspect-video overflow-hidden shrink-0 border-1 border-black">
 		{#if imageUrl}
 			<img src={imageUrl} alt={title} class="w-full h-full object-cover" />
 		{:else}
@@ -35,7 +32,7 @@
 		{/if}
 	</div>
 
-	<div class="flex flex-col gap-2 px-3 pb-3 pt-0 overflow-y-auto flex-1">
+	<div class="flex flex-col gap-2 pt-3 overflow-y-auto flex-1">
 		<ul class="m-0 pl-4 text-sm leading-relaxed list-disc">
 			{#each description as point (point)}
 				<li>{point}</li>
@@ -61,6 +58,7 @@
 					GitHub
 				</a>
 			{/if}
+
 			{#if demoUrl}
 				<a
 					href={demoUrl}
@@ -73,4 +71,4 @@
 			{/if}
 		</div>
 	</div>
-</div>
+</fieldset>
