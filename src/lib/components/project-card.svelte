@@ -21,7 +21,7 @@
 <fieldset class="aspect-9/16 flex flex-col min-w-0 ">
 	<legend class="px-2 font-bold">{title}</legend>
 
-	<div class="aspect-video overflow-hidden shrink-0 border-1 border-black">
+	<div class="aspect-video overflow-hidden shrink-0 media-border">
 		{#if imageUrl}
 			<img src={imageUrl} alt={title} class="w-full h-full object-cover" />
 		{:else}

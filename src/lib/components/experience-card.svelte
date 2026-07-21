@@ -27,9 +27,9 @@
 		<div class="flex gap-5 w-full md:w-auto">
 			<div class="shrink-0 w-20 h-20">
 				{#if logoUrl}
-					<img src={logoUrl} alt="{company} logo" class="w-full h-full object-contain border-1" />
+					<img src={logoUrl} alt="{company} logo" class="w-full h-full object-contain media-border" />
 				{:else}
-					<div class="w-full h-full border-1" style="background: linear-gradient(135deg, #fff 45%, #000 45%, #000 55%, #fff 55%)"></div>
+					<div class="w-full h-full media-border" style="background: linear-gradient(135deg, #fff 45%, #000 45%, #000 55%, #fff 55%)"></div>
 				{/if}
 			</div>
 

@@ -37,4 +37,8 @@
         font-weight: normal;
     }
 
+    :global(.media-border) {
+        border: 1px solid #000;
+    }
+
 </style>
