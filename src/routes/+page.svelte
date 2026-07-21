@@ -161,22 +161,20 @@
 		</div>
 
 		<h2 id="contact-me">Contact Me</h2>
-		<div class="window m-0! min-w-0!">
-			<div class="title-bar">
-				<span class="title">Let's Connect</span>
-			</div>
-			<div class="separator"></div>
-			<div class="alert-box">
-				<div class="alert-contents p-0!">
-					<p class="pb-2">Got a question or want to work together?</p>
-					<div class="flex flex-wrap gap-2 justify-end">
-						<a href="mailto:contact@bishwasaha.com" class="btn">Send me an email</a>
-						<a href="https://github.com/kun-codes" class="btn">GitHub</a>
-						<a href="https://www.linkedin.com/in/bishwa-bhusan-saha" class="btn">LinkedIn</a>
-					</div>
-				</div>
-			</div>
-		</div>
+
+        <div class="modal-dialog outer-border">
+        <div class="inner-border">
+            <div class="modal-contents">
+                <h1 class="modal-text">Contact</h1>
+                <p class="mb-4"> Got a question or want to work together?</p>
+                <section class="field-row" style="justify-content: flex-end;">
+                    <a href="mailto:contact@bishwasaha.com" class="btn">Email</a>
+                    <a href="https://github.com/kun-codes" class="btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/bishwa-bhusan-saha" class="btn">LinkedIn</a>
+                </section>
+            </div>
+        </div>
+        </div>
 	</div>
 
 	{#snippet details()}
