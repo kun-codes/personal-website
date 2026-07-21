@@ -24,4 +24,17 @@
 		font-weight: normal;
     }
 
+    :global(fieldset) {
+        border: 2px solid var(--border-color, black);
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        min-width: 0;
+    }
+
+    :global(legend) {
+        padding: 0 6px;
+        font-family: Chicago;
+        font-weight: normal;
+    }
+
 </style>
