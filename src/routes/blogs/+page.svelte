@@ -3,6 +3,7 @@
 	import { SvelteURLSearchParams } from 'svelte/reactivity';
 	import BlogCard from '$lib/components/blog-card.svelte';
 	import BlogTag from '$lib/components/blog-tag.svelte';
+	import MacWindow from '$lib/components/mac-window.svelte';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
@@ -20,22 +21,15 @@
 		const qs = params.toString();
 		return qs ? `?${qs}` : '';
 	};
-
 </script>
 
-<div class="standard-dialog min-w-0!">
-	<ul role="menu-bar" class="flex flex-wrap justify-center">
-		<li role="menu-item" tabindex="0" aria-haspopup="false">
-			<a href={resolve('/')}>home</a>
-		</li>
-		<li role="menu-item" tabindex="0" aria-haspopup="false">
-			<a href={resolve('/#contact-me')}>contact</a>
-		</li>
-	</ul>
-</div>
-
-<div>
-	<h2>Blog</h2>
+<MacWindow
+	title="Blog"
+	menus={[
+		{ label: 'home', href: '/' },
+		{ label: 'contact', href: '/#contact-me' }
+	]}
+>
 	<p>Welcome to my blog! Thoughts on things I'm building and learning.</p>
 
 	<div class="flex flex-wrap items-center gap-1.5 mt-2 mb-4">
@@ -73,4 +67,4 @@
 			<a href="{resolve('/blogs')}{pageQuery(data.page + 1)}" class="btn">Next</a>
 		{/if}
 	</div>
-</div>
+</MacWindow>
