@@ -2,6 +2,7 @@
 	import { resolve } from '$app/paths';
 	import { SvelteURLSearchParams } from 'svelte/reactivity';
 	import BlogTag from '$lib/components/blog-tag.svelte';
+	import MacWindow from '$lib/components/mac-window.svelte';
 	import { getPostComponent, formatDate } from '$lib/content/blogs/blog-loader';
 	import type { PageProps } from './$types';
 
@@ -17,24 +18,16 @@
 	};
 </script>
 
-<div class="standard-dialog min-w-0!">
-	<ul role="menu-bar" class="flex flex-wrap justify-center">
-		<li role="menu-item" tabindex="0" aria-haspopup="false">
-			<a href={resolve('/')}>home</a>
-		</li>
-		<li role="menu-item" tabindex="0" aria-haspopup="false">
-			<a href={resolve('/blogs')}>blogs</a>
-		</li>
-		<li role="menu-item" tabindex="0" aria-haspopup="false">
-			<a href={resolve('/#contact-me')}>contact</a>
-		</li>
-	</ul>
-</div>
-
-<div>
+<MacWindow
+	title={data.post.title}
+	menus={[
+		{ label: 'home', href: '/' },
+		{ label: 'blogs', href: '/blogs' },
+		{ label: 'contact', href: '/#contact-me' }
+	]}
+>
 	<article class="text-justify">
 		<header>
-			<h2 class="mb-1!">{data.post.title}</h2>
 
             <div class="flex flex-col items-start gap-1">
 				<span>{formatDate(data.post.date)}</span>
@@ -63,4 +56,4 @@
 	<div>
 		<a href={resolve('/blogs')} class="btn">&larr; Back to all posts</a>
 	</div>
-</div>
+</MacWindow>
