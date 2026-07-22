@@ -166,6 +166,12 @@
 		padding: 1rem 1rem;
 	}
 
+	.title-bar .title {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
 	.details-bar {
 		padding-right: calc(1rem + 22px);
 	}
