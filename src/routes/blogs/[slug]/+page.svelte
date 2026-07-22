@@ -28,13 +28,12 @@
 >
 	<article class="text-justify">
 		<header>
-
-            <div class="flex flex-col items-start gap-1">
-				<span>{formatDate(data.post.date)}</span>
-			    <span class="flex flex-wrap gap-1.5">
-                    {#each data.post.tags as tag (tag)}
-                        <BlogTag label={tag} href={tagFilterHref(tag)} small={true}/>
-                    {/each}
+			<div class="flex flex-wrap-reverse items-center justify-between gap-1">
+				<span class="order-2">{formatDate(data.post.date)}</span>
+				<span class="order-1 flex flex-wrap gap-1.5">
+					{#each data.post.tags as tag (tag)}
+						<BlogTag label={tag} href={tagFilterHref(tag)} small={true}/>
+					{/each}
 				</span>
 			</div>
 
