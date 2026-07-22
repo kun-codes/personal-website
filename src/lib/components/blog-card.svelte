@@ -15,7 +15,7 @@
 		`${blogsHref}?${new URLSearchParams({ tag }).toString()}`;
 </script>
 
-<li class="standard-dialog m-0! min-w-0!">
+<li class="border-2 p-3 m-0! min-w-0!">
 	<h1 class="dialog-text">
 		<a href={postHref}>{post.title}</a>
 	</h1>
