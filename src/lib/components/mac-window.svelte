@@ -2,18 +2,17 @@
 	import { type Snippet } from 'svelte';
 	import { resolve } from '$app/paths';
 	import canvasPattern from '$lib/assets/canvas.png';
+	import Footer from '$lib/components/footer.svelte';
 
 	type MenuLink = { label: string; href: string; external?: boolean };
 
 	let {
 		title = '',
 		menus,
-		details,
 		children
 	}: {
 		title?: string;
 		menus: MenuLink[];
-		details?: Snippet;
 		children?: Snippet;
 	} = $props();
 
@@ -59,12 +58,7 @@
 				{/if}
 			</div>
 		</div>
-
-		{#if details}
-			<div class="details-bar">
-				{@render details()}
-			</div>
-		{/if}
+		<Footer />
 	</div>
 </div>
 

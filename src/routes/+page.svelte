@@ -176,11 +176,4 @@
         </div>
         </div>
 	</div>
-
-	{#snippet details()}
-		<span>© 2026 Bishwa Bhusan Saha</span>
-		<span class="flex gap-4">
-			<a href="https://github.com/kun-codes/personal-website/blob/main/LICENSE" class="underline">MIT</a>
-		</span>
-	{/snippet}
 </MacWindow>
